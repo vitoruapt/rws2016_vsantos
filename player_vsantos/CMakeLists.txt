@@ -128,7 +128,7 @@ include_directories(
 # add_dependencies(player_vsantos ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Declare a C++ executable
-# add_executable(player_vsantos_node src/player_vsantos_node.cpp)
+add_executable(player_vsantos_node src/player_vsantos_node.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
